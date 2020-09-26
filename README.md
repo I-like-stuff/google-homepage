@@ -1,1 +1,1 @@
-A recreation of google.com for The Odin Project cource
+A recreation of google.com for The Odin Project course
