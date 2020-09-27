@@ -1,5 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-    font-family: 'Roboto', sans-serif, 'Arial';
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#search_area {
+    display: flex;
+    margin-top: 9%;    
+    flex-flow: column wrap;
+}
+
+#googlelogo {
+    margin: auto;
+    width: 270px;
+    height: auto;
+}
+
+#searchbar {
+    margin: auto;
+    margin-top: 2em;
+    width: 520px;
+    border: none;
+    padding: 12px;
+    border:1px solid #eaeaea;
+    border-radius: 20px;
+    outline:none;
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 5px rgba(33,33,33,.2); 
+}
+
+#search_buttons {
+    margin: auto;
+    margin-top: 2em;
+}
+
+#search_button {
+    padding: 9px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+
+}
+
+#search_button:hover {
+    box-shadow: 0 0 5px rgba(33,33,33,.2); 
+}
+
+#ifl_button {
+    padding: 9px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+
+}
+
+#ifl_button:hover {
+    box-shadow: 0 0 5px rgba(33,33,33,.2); 
 }
