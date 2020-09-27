@@ -108,3 +108,38 @@ a {
 
 }
 
+#footer{
+    display: flex;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 5%;
+}
+
+#advertising{
+    padding: 10px;
+}
+
+#business{
+    padding: 10px;
+}
+
+#hsw{
+    margin-left: 50%;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+#privacy{
+    padding: 10px;
+}
+
+#terms{
+    padding: 10px;
+}
+
+#settings{
+    padding: 10px;
+}
